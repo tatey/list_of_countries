@@ -31,11 +31,13 @@ What attributes does a country have?
 
 ``` ruby
 aruba = countries.first
-aruba.name.common   # => "Aruba"
-aruba.name.official # => "Aruba"
-aruba.languages     # => ["Dutch", "Papiamento"]
-aruba.region        # => "Americas"
-aruba.subregion     # => "Caribbean"
+aruba.name.common     # => "Aruba"
+aruba.name.official   # => "Aruba"
+aruba.languages       # => ["Dutch", "Papiamento"]
+aruba.region          # => "Americas"
+aruba.subregion       # => "Caribbean"
+aruba.demonyms.female # => "Aruban"
+aruba.demonyms.male   # => "Aruban"
 ```
 
 ## Development
