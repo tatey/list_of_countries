@@ -1,4 +1,4 @@
-# List Of Countries ![Ruby](https://github.com/tatey/list_of_countries/workflows/Ruby/badge.svg)
+# List Of Countries ![Ruby](https://github.com/tatey/list_of_countries/workflows/Ruby/badge.svg) [![Gem Version](https://badge.fury.io/rb/list_of_countries.svg)](https://badge.fury.io/rb/list_of_countries)
 
 A list of countries in Ruby. Based on data from [World countries in JSON, CSV, XML and Yaml](https://github.com/mledoze/countries).
 
