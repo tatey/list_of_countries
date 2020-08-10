@@ -88,7 +88,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/tatey/
 
 ## License
 
-The gem is available as open source under the terms of the [ODbL license](https://github.com/tatey/list_of_countries/blob/master/LICENSE.txt).
+The gem is available as open source under the terms of the [MIT license](https://github.com/tatey/list_of_countries/blob/master/LICENSE.txt). Data is under the terms of their individual submodule.
 
 ## Code of Conduct
 
