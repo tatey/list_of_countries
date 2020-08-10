@@ -2,7 +2,7 @@ require "test_helper"
 
 class ListOfCountriesCountriesTest < Minitest::Test
   def setup
-    @countries = ListOfCountries.all
+    @countries = ListOfCountries.countries
   end
 
   def test_list_of_countries

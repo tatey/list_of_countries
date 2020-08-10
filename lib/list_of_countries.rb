@@ -7,8 +7,8 @@ require "list_of_countries/state"
 require "list_of_countries/version"
 
 module ListOfCountries
-  def self.all
-    @all ||= begin
+  def self.countries
+    @countries ||= begin
       path = File.expand_path("../../data/countries/countries.json", __FILE__)
       file = File.open(path, "r")
       JSON.load(file).map do |data|

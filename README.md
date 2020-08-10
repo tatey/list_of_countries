@@ -26,7 +26,7 @@ Or install it yourself as:
 How many countries are there?
 
 ``` ruby
-countries = ListOfCountries.all
+countries = ListOfCountries.countries
 countries.size # => 250
 ```
 
