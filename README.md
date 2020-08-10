@@ -1,6 +1,9 @@
 # List Of Countries ![Ruby](https://github.com/tatey/list_of_countries/workflows/Ruby/badge.svg) [![Gem Version](https://badge.fury.io/rb/list_of_countries.svg)](https://badge.fury.io/rb/list_of_countries)
 
-A list of countries in Ruby. Based on data from [World countries in JSON, CSV, XML and Yaml](https://github.com/mledoze/countries).
+A list of countries, states, and cities in Ruby. Based on data from:
+
+- [World countries in JSON, CSV, XML and Yaml](https://github.com/mledoze/countries)
+- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database)
 
 ## Installation
 
@@ -27,7 +30,7 @@ countries = ListOfCountries.all
 countries.size # => 250
 ```
 
-What attributes does a country have?
+What's the first country?
 
 ``` ruby
 aruba = countries.first
@@ -38,6 +41,35 @@ aruba.region          # => "Americas"
 aruba.subregion       # => "Caribbean"
 aruba.demonyms.female # => "Aruban"
 aruba.demonyms.male   # => "Aruban"
+```
+
+How many states are there?
+
+``` ruby
+states = ListOfCountries.states
+states.size # => 4868
+```
+
+What's the first state?
+
+``` ruby
+state = states.first
+state.name # => "Badakhshan"
+state.code # => "BDS"
+```
+
+How many cities are there?
+
+``` ruby
+cities = ListOfCountries.cities
+cities.size # => 143852
+```
+
+What's the first city?
+
+``` ruby
+city = cities.first
+city.name # => "Ashkāsham"
 ```
 
 ## Development

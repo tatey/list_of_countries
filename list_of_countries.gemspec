@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features|data)/}) }
   end
   spec.files << "data/countries/countries.json"
+  spec.files << "data/countries_states_cities_database/cities.json"
+  spec.files << "data/countries_states_cities_database/states.json"
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]

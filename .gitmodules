@@ -1,3 +1,6 @@
 [submodule "data/countries"]
 	path = data/countries
 	url = https://github.com/mledoze/countries.git
+[submodule "data/countries_states_cities_database"]
+	path = data/countries_states_cities_database
+	url = https://github.com/dr5hn/countries-states-cities-database.git

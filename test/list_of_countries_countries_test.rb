@@ -1,6 +1,6 @@
 require "test_helper"
 
-class ListOfCountriesTest < Minitest::Test
+class ListOfCountriesCountriesTest < Minitest::Test
   def setup
     @countries = ListOfCountries.all
   end
@@ -9,12 +9,12 @@ class ListOfCountriesTest < Minitest::Test
     assert_equal(250, @countries.size)
   end
 
-  def test_first_country_is_aruba
+  def test_first_country
     country = @countries.first
     assert_equal("Aruba", country.name.common)
   end
 
-  def test_last_country_is_aruba
+  def test_last_country
     country = @countries.last
     assert_equal("Zimbabwe", country.name.common)
   end
