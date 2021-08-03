@@ -5,6 +5,8 @@ A list of countries, states, and cities in Ruby. Based on data from:
 - [World countries in JSON, CSV, XML and Yaml](https://github.com/mledoze/countries)
 - [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database)
 
+This gem was extracted from [Read Blindly](https://readblindly.com). Companies who use Read Blindly review job applications fairly and without bias.
+
 ## Installation
 
 Add this line to your application's Gemfile:
